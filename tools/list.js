@@ -21,9 +21,9 @@ async function get(type, ctx) {
             "\n" +
             `${quote(`Uptime: ${general.convertMsToDuration(Date.now() - config.bot.readyAt)}`)}\n` +
             `${quote(`Database: ${config.bot.dbSize} (users.json)`)}\n` +
-            `${quote(`Library: vceatedbyfernazer`)}\n` +
+            `${quote(`Di Buat Oleh: Firdan Ardiansyah`)}\n` +
             "\n" +
-            `${italic("Jangan menggunakan bot dalam kondisi spam!")}\n` +
+            `${italic("Jangan Spam Bot!!!")}\n` +
             `${config.msg.readmore}\n`;
 
         for (const category of Object.keys(tag)) {
